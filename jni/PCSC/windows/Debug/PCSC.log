@@ -1,0 +1,14 @@
+﻿La génération a démarré 06/01/2012 18:54:52.
+     1>Projet "D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Debug\PCSC.unsuccessfulbuild".
+       ClCompile:
+         Suppression du fichier "Debug\PCSC.pch".
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PCSC_2010_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\PCSC.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\PCSC.cpp
+         PCSC.cpp
+     1>d:\affaire\perso\smartcardtoolbox\pcsc4java-framework-0.1\jni\pcsc\src\pcsc.cpp(42): fatal error C1083: Impossible d'ouvrir le fichier en-tête précompilé : 'Debug\PCSC.pch' : No such file or directory
+     1>Génération du projet "D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.10

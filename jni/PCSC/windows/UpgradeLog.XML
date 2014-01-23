@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PCSC">
+</Property><Property Name="Fichier solution" Value="D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.sln">
+</Property><Property Name="Fichier d'options utilisateur" Value="D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.suo">
+</Property><Property Name="Date" Value="vendredi 6 janvier 2012">
+</Property><Property Name="Time" Value="18:17">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PCSC.sln" Description="Fichier correctement sauvegardé en tant que D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="PCSC.suo" Description="Fichier correctement sauvegardé en tant que D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.suo.old">
+</Event><Event ErrorLevel="0" Project="PCSC" Source="PCSC.vcproj" Description="Converting project file 'D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.vcproj'.">
+</Event><Event ErrorLevel="1" Project="PCSC" Source="PCSC.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="PCSC" Source="PCSC.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="PCSC" Source="PCSC.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="PCSC" Source="PCSC.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="PCSC" Source="PCSC.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="PCSC" Source="PCSC.vcproj" Description="Done converting to new project file 'D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="PCSC" Source="PCSC.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PCSC.sln" Description="Solution correctement convertie">
+</Event><Event ErrorLevel="3" Project="" Source="PCSC.sln" Description="Converted">
+</Event></UpgradeLog>

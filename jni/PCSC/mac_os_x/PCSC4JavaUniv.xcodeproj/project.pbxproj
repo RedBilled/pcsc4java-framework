@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081B3516155D32E2003B391D /* jni.h in Headers */ = {isa = PBXBuildFile; fileRef = 081B3513155D32E2003B391D /* jni.h */; };
+		081B3517155D32E2003B391D /* PCSC_Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 081B3514155D32E2003B391D /* PCSC_Defines.h */; };
+		081B3518155D32E2003B391D /* PCSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 081B3515155D32E2003B391D /* PCSC.h */; };
+		081B351B155D32F1003B391D /* PCSC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 081B351A155D32F1003B391D /* PCSC.cpp */; };
+		081B351D155D3408003B391D /* PCSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081B351C155D3408003B391D /* PCSC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		081B3509155D322D003B391D /* libPCSC4JavaUniv.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libPCSC4JavaUniv.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		081B3513155D32E2003B391D /* jni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jni.h; path = ../inc/jni.h; sourceTree = "<group>"; };
+		081B3514155D32E2003B391D /* PCSC_Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCSC_Defines.h; path = ../inc/PCSC_Defines.h; sourceTree = "<group>"; };
+		081B3515155D32E2003B391D /* PCSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCSC.h; path = ../inc/PCSC.h; sourceTree = "<group>"; };
+		081B351A155D32F1003B391D /* PCSC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PCSC.cpp; path = ../src/PCSC.cpp; sourceTree = "<group>"; };
+		081B351C155D3408003B391D /* PCSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCSC.framework; path = System/Library/Frameworks/PCSC.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		081B3506155D322D003B391D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081B351D155D3408003B391D /* PCSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081B34FE155D322D003B391D = {
+			isa = PBXGroup;
+			children = (
+				081B351C155D3408003B391D /* PCSC.framework */,
+				081B351A155D32F1003B391D /* PCSC.cpp */,
+				081B3513155D32E2003B391D /* jni.h */,
+				081B3514155D32E2003B391D /* PCSC_Defines.h */,
+				081B3515155D32E2003B391D /* PCSC.h */,
+				081B350A155D322D003B391D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		081B350A155D322D003B391D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				081B3509155D322D003B391D /* libPCSC4JavaUniv.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		081B3507155D322D003B391D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081B3516155D32E2003B391D /* jni.h in Headers */,
+				081B3517155D32E2003B391D /* PCSC_Defines.h in Headers */,
+				081B3518155D32E2003B391D /* PCSC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		081B3508155D322D003B391D /* PCSC4JavaUniv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081B350D155D322D003B391D /* Build configuration list for PBXNativeTarget "PCSC4JavaUniv" */;
+			buildPhases = (
+				081B3505155D322D003B391D /* Sources */,
+				081B3506155D322D003B391D /* Frameworks */,
+				081B3507155D322D003B391D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCSC4JavaUniv;
+			productName = libPCSC4JavaUni;
+			productReference = 081B3509155D322D003B391D /* libPCSC4JavaUniv.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		081B3500155D322D003B391D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 081B3503155D322D003B391D /* Build configuration list for PBXProject "PCSC4JavaUniv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 081B34FE155D322D003B391D;
+			productRefGroup = 081B350A155D322D003B391D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				081B3508155D322D003B391D /* PCSC4JavaUniv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		081B3505155D322D003B391D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081B351B155D32F1003B391D /* PCSC.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		081B350B155D322D003B391D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		081B350C155D322D003B391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		081B350E155D322D003B391D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					_DEBUG,
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"DEBUG=1",
+					_DEBUG,
+					"$(inherited)",
+				);
+				PRODUCT_NAME = PCSC4JavaUniv;
+			};
+			name = Debug;
+		};
+		081B350F155D322D003B391D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = PCSC4JavaUniv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081B3503155D322D003B391D /* Build configuration list for PBXProject "PCSC4JavaUniv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081B350B155D322D003B391D /* Debug */,
+				081B350C155D322D003B391D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		081B350D155D322D003B391D /* Build configuration list for PBXNativeTarget "PCSC4JavaUniv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081B350E155D322D003B391D /* Debug */,
+				081B350F155D322D003B391D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 081B3500155D322D003B391D /* Project object */;
+}

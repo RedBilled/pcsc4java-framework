@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['i',['i',['../unionjvalue.html#a17b6765ac8cb7d522e35073745faebe2',1,'jvalue']]],
+  ['ignoreunrecognized',['ignoreUnrecognized',['../struct_java_v_m_init_args.html#a15645a37be26428bbaadf99d6237c5bc',1,'JavaVMInitArgs']]],
+  ['implies',['implies',['../classfr_1_1redbilled_1_1pcscforjava_1_1_card_permission.html#a62f4e76b5a93c0866ff2950808b75dfa',1,'fr::redbilled::pcscforjava::CardPermission']]],
+  ['index',['index',['../struct_j_n_i_native_interface__.html#a37cecb5ff98dbcf4abf93a98c5303bf9',1,'JNINativeInterface_']]],
+  ['init',['init',['../struct_j_n_i_native_interface__.html#a097a479523329b83c527eb2ae1b2f70a',1,'JNINativeInterface_']]],
+  ['ioctl_5fget_5ffeature_5frequest',['IOCTL_GET_FEATURE_REQUEST',['../classfr_1_1redbilled_1_1pcscforjava_1_1_card.html#ada42fbb23465423e96fc6018e21057a8',1,'fr::redbilled::pcscforjava::Card']]],
+  ['isabletochangefromspecifictonegociablemode',['isAbleToChangeFromSpecificToNegociableMode',['../classfr_1_1redbilled_1_1pcscforjava_1_1_a_t_r.html#a6b84c3c0d29333ac15117994f20950fe',1,'fr::redbilled::pcscforjava::ATR']]],
+  ['iscardpresent',['isCardPresent',['../classfr_1_1redbilled_1_1pcscforjava_1_1_card_terminal.html#a5f3e3c97a53e1a9b7820f091d603babc',1,'fr::redbilled::pcscforjava::CardTerminal']]],
+  ['isnegotiablemode',['isNegotiableMode',['../classfr_1_1redbilled_1_1pcscforjava_1_1_a_t_r.html#a458172e45817de06ecf3181478d5bca4',1,'fr::redbilled::pcscforjava::ATR']]],
+  ['isplugandplaysupported',['isPlugAndPlaySupported',['../classfr_1_1redbilled_1_1pcscforjava_1_1_card_terminals.html#af2e9c168a4c068e0e022e3d12f8cb5e0',1,'fr::redbilled::pcscforjava::CardTerminals']]],
+  ['isstatic',['isStatic',['../struct_j_n_i_native_interface__.html#a181ed92ca7dccef330c6c2c5194019ff',1,'JNINativeInterface_::isStatic()'],['../struct_j_n_i_native_interface__.html#af1cf3975d3133cf38e8edbf486269b28',1,'JNINativeInterface_::isStatic()']]],
+  ['issupportedprotocol',['isSupportedProtocol',['../classfr_1_1redbilled_1_1pcscforjava_1_1_a_t_r.html#ab7066ab560ef1c06f4f325c135886089',1,'fr::redbilled::pcscforjava::ATR']]],
+  ['istapresent',['isTaPresent',['../classfr_1_1redbilled_1_1pcscforjava_1_1_a_t_r.html#ac75cd76fa8a6816ec80603218ee8b741',1,'fr::redbilled::pcscforjava::ATR']]],
+  ['istbpresent',['isTbPresent',['../classfr_1_1redbilled_1_1pcscforjava_1_1_a_t_r.html#a3e438b29c91dfd00b33e63ce4e7a2630',1,'fr::redbilled::pcscforjava::ATR']]],
+  ['istcpresent',['isTcPresent',['../classfr_1_1redbilled_1_1pcscforjava_1_1_a_t_r.html#a7c269bc76a114253da945e826f6a7cc9',1,'fr::redbilled::pcscforjava::ATR']]],
+  ['istdpresent',['isTdPresent',['../classfr_1_1redbilled_1_1pcscforjava_1_1_a_t_r.html#abdd5e2d23b89057aaccb73f734e466f0',1,'fr::redbilled::pcscforjava::ATR']]],
+  ['isvalidcontext',['isValidContext',['../classfr_1_1redbilled_1_1pcscforjava_1_1_card_terminals.html#aa90ac453de30d8e6ef87a3369ab5d410',1,'fr::redbilled::pcscforjava::CardTerminals']]]
+];

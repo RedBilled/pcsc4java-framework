@@ -1,0 +1,23 @@
+﻿La génération a démarré 12/01/2012 15:22:03.
+     1>Projet "D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Release\PCSC.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PCSC_2010_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\PCSC.cpp
+         PCSC.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\Release\PCSC4Java32bits.dll" /INCREMENTAL:NO /NOLOGO winscard.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PCSC4Java32bits.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\Release\PCSC4Java32bits.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\Release\PCSC4Java32bits.lib" /MACHINE:X86 /DLL Release\PCSC.obj
+            Création de la bibliothèque D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\Release\PCSC4Java32bits.lib et de l'objet D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\Release\PCSC4Java32bits.exp
+         Génération de code en cours
+         Fin de la génération du code
+         PCSC.vcxproj -> D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\Release\PCSC4Java32bits.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\Release\PCSC4Java32bits.dll;#2" /manifest Release\PCSC4Java32bits.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\PCSC.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\PCSC.lastbuildstate".
+     1>Génération du projet "D:\Affaire\Perso\SmartCardToolBox\pcsc4java-framework-0.1\jni\PCSC\windows\PCSC.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.29

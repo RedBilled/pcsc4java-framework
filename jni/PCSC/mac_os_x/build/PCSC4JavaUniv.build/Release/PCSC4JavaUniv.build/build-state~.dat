@@ -1,0 +1,197 @@
+TPCSC4JavaUniv
+v4
+r1
+cCheck dependencies
+cCompileC build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC.o /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC.o /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylib normal i386
+cLd /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib normal x86_64
+cCreateUniversalBinary /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib normal "x86_64 i386"
+cGenerateDSYMFile /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib.dSYM /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/PCSC.framework/PCSC
+c000000004E7AD704000000000000666C
+t1316673284
+s26220
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/../inc/../mac_os_x/jni.h
+c000000004C6C12F80000000000010BB1
+t1282151160
+s68529
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/../inc/../mac_os_x/jni_md.h
+c000000004F50F9F600000000000001D4
+t1330706934
+s468
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/../inc/PCSC.h
+c000000004F50F9F60000000000001D2F
+t1330706934
+s7471
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/../inc/PCSC_Defines.h
+c000000004FACFF840000000000000D38
+t1336737668
+s3384
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp
+c000000004FAE3D68000000000000C48F
+t1336819048
+s50319
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC.o
+t2
+s0
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC4JavaUniv.LinkFileList
+c000000004FAE41F80000000000000076
+t1336820216
+s118
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylib
+t2
+s0
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC.o
+t2
+s0
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC4JavaUniv.LinkFileList
+c000000004FAE41FC0000000000000078
+t1336820220
+s120
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib
+t2
+s0
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib
+t2
+s0
+
+N/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib.dSYM
+t2
+s0
+
+CBuild AST from /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0d376878795eb541^da70347e795eb541^---0#1#0#--18"Check dependencies36"E7595514-11B6-4438-BF1F-934D8CB0C16C-
+
+CCompileC build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC.o /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s358513022.208258
+e358513025.120793
+r1
+xCompileC
+xbuild/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC.o
+x/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:76:7: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue' [-Wmissing-prototypes,3]
+o DWORD Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue(DWORD dwScardValue, UCHAR ucProtocol, UCHAR ucEntry)
+o       ^
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:283:9: warning: unused variable '_bIsReaderOk' [-Wunused-variable,12]
+o         BOOL                    _bIsReaderOk = false;
+o                                 ^
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:320:39:{320:11-320:28}{320:39-320:56}: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess,3]
+o                         memset(&_szReader[_i][0],0, sizeof(&_szReader[_i][0]));
+o                                ~~~~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:1010:29: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards' [-Wmissing-prototypes,3]
+o JNIEXPORT jintArray JNICALL Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards(JNIEnv *env, jclass object, jlong lContextId, 
+o                             ^
+o4 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp616c357e795eb541^75011f81795eb541^-1342"/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:76:7: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue' [-Wmissing-prototypes,3] DWORD Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue(DWORD dwScardValue, UCHAR ucProtocol, UCHAR ucEntry)       ^/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:283:9: warning: unused variable '_bIsReaderOk' [-Wunused-variable,12]         BOOL                    _bIsReaderOk = false;                                 ^/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:320:39:{320:11-320:28}{320:39-320:56}: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess,3]                         memset(&_szReader[_i][0],0, sizeof(&_szReader[_i][0]));                                ~~~~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:1010:29: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards' [-Wmissing-prototypes,3] JNIEXPORT jintArray JNICALL Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards(JNIEnv *env, jclass object, jlong lContextId,                              ^4 warnings generated.4(21%IDEActivityLogMessage2@101"No previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue'-358513023#0#195#-1#-23%DVTTextDocumentLocation3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^75#6#75#6#18446744073709551615#0#14"Semantic Issue--2@30"Unused variable '_bIsReaderOk'-358513023#329#123#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^282#8#282#8#18446744073709551615#0#19"Unused Entity Issue--2@124"Argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to provide an explicit length?-358513023#542#257#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^319#38#319#38#18446744073709551615#0#14"Semantic Issue2(3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^319#10#319#27#18446744073709551615#0#3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^319#38#319#55#18446744073709551615#0#-2@97"No previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards'-358513023#958#194#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^1009#28#1009#28#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp0000000000000000^1938"CompileC build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC.o ../src/PCSC.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/REDBILLED/mac/PCSC/mac_os_x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-generated-files.hmap -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-own-target-headers.hmap -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-all-target-headers.hmap -iquote /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-project-headers.hmap -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/include -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/DerivedSources/i386 -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/DerivedSources -F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release -DDEBUG=1 -D_DEBUG -MMD -MT dependencies -MF /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC.d -c /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp -o /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC.o36"9BBEE5BB-D763-4308-B933-553494896D41-
+
+CCompileC build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC.o /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s358513022.208108
+e358513025.124470
+r1
+xCompileC
+xbuild/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC.o
+x/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:76:7: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue' [-Wmissing-prototypes,3]
+o DWORD Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue(DWORD dwScardValue, UCHAR ucProtocol, UCHAR ucEntry)
+o       ^
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:283:9: warning: unused variable '_bIsReaderOk' [-Wunused-variable,12]
+o         BOOL                    _bIsReaderOk = false;
+o                                 ^
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:320:39:{320:11-320:28}{320:39-320:56}: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess,3]
+o                         memset(&_szReader[_i][0],0, sizeof(&_szReader[_i][0]));
+o                                ~~~~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:792:60:{792:60-792:74}{792:13-792:33}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o         _lResult = SCardGetStatusChange((SCARDCONTEXT)_contextId, (long)lTimeout, _readerState, _dwNbElements);
+o                    ~~~~~~~~~~~~~~~~~~~~                           ^~~~~~~~~~~~~~
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:892:61:{892:61-892:75}{892:14-892:34}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o                 _lResult = SCardGetStatusChange((SCARDCONTEXT)_contextId, (long)lTimeout, _readerState, 1);
+o                            ~~~~~~~~~~~~~~~~~~~~                           ^~~~~~~~~~~~~~
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:925:36:{925:36-925:51}{925:34-925:35}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o                 _readerState[0].dwCurrentState = g_lEventOccured;
+o                                                ~ ^~~~~~~~~~~~~~~
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:929:61:{929:61-929:75}{929:14-929:34}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o                 _lResult = SCardGetStatusChange((SCARDCONTEXT)_contextId, (long)lTimeout, _readerState, 1);
+o                            ~~~~~~~~~~~~~~~~~~~~                           ^~~~~~~~~~~~~~
+o/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:1010:29: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards' [-Wmissing-prototypes,3]
+o JNIEXPORT jintArray JNICALL Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards(JNIEnv *env, jclass object, jlong lContextId, 
+o                             ^
+o8 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cppdc67357e795eb541^01dd1f81795eb541^-2912"/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:76:7: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue' [-Wmissing-prototypes,3] DWORD Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue(DWORD dwScardValue, UCHAR ucProtocol, UCHAR ucEntry)       ^/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:283:9: warning: unused variable '_bIsReaderOk' [-Wunused-variable,12]         BOOL                    _bIsReaderOk = false;                                 ^/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:320:39:{320:11-320:28}{320:39-320:56}: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess,3]                         memset(&_szReader[_i][0],0, sizeof(&_szReader[_i][0]));                                ~~~~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:792:60:{792:60-792:74}{792:13-792:33}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]         _lResult = SCardGetStatusChange((SCARDCONTEXT)_contextId, (long)lTimeout, _readerState, _dwNbElements);                    ~~~~~~~~~~~~~~~~~~~~                           ^~~~~~~~~~~~~~/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:892:61:{892:61-892:75}{892:14-892:34}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]                 _lResult = SCardGetStatusChange((SCARDCONTEXT)_contextId, (long)lTimeout, _readerState, 1);                            ~~~~~~~~~~~~~~~~~~~~                           ^~~~~~~~~~~~~~/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:925:36:{925:36-925:51}{925:34-925:35}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]                 _readerState[0].dwCurrentState = g_lEventOccured;                                                ~ ^~~~~~~~~~~~~~~/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:929:61:{929:61-929:75}{929:14-929:34}: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32,3]                 _lResult = SCardGetStatusChange((SCARDCONTEXT)_contextId, (long)lTimeout, _readerState, 1);                            ~~~~~~~~~~~~~~~~~~~~                           ^~~~~~~~~~~~~~/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp:1010:29: warning: no previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards' [-Wmissing-prototypes,3] JNIEXPORT jintArray JNICALL Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards(JNIEnv *env, jclass object, jlong lContextId,                              ^8 warnings generated.8(21%IDEActivityLogMessage2@101"No previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_GetCorrectSCardValue'-358513023#0#195#-1#-23%DVTTextDocumentLocation3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^75#6#75#6#18446744073709551615#0#14"Semantic Issue--2@30"Unused variable '_bIsReaderOk'-358513023#329#123#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^282#8#282#8#18446744073709551615#0#19"Unused Entity Issue--2@124"Argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to provide an explicit length?-358513023#542#257#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^319#38#319#38#18446744073709551615#0#14"Semantic Issue2(3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^319#10#319#27#18446744073709551615#0#3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^319#38#319#55#18446744073709551615#0#-2@86"Implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')65"Implicit conversion loses integer precision: 'long' to 'uint32_t'358513023#958#211#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^791#59#791#59#18446744073709551615#0#14"Semantic Issue2(3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^791#59#791#73#18446744073709551615#0#3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^791#12#791#32#18446744073709551615#0#-2@86"Implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')65"Implicit conversion loses integer precision: 'long' to 'uint32_t'358513023#1364#211#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^891#60#891#60#18446744073709551615#0#14"Semantic Issue2(3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^891#60#891#74#18446744073709551615#0#3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^891#13#891#33#18446744073709551615#0#-2@86"Implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')65"Implicit conversion loses integer precision: 'long' to 'uint32_t'358513023#1774#211#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^924#35#924#35#18446744073709551615#0#14"Semantic Issue2(3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^924#35#924#50#18446744073709551615#0#3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^924#33#924#34#18446744073709551615#0#-2@86"Implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int')65"Implicit conversion loses integer precision: 'long' to 'uint32_t'358513023#2118#211#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^928#60#928#60#18446744073709551615#0#14"Semantic Issue2(3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^928#60#928#74#18446744073709551615#0#3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^928#13#928#33#18446744073709551615#0#-2@97"No previous prototype for function 'Java_fr_redbilled_security_pcscforjava_PCSC_SCardLocateCards'-358513023#2528#194#-1#-3@56"file://localhost/Volumes/REDBILLED/mac/PCSC/src/PCSC.cpp0000000000000000^1009#28#1009#28#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp0000000000000000^1950"CompileC build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC.o ../src/PCSC.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/REDBILLED/mac/PCSC/mac_os_x    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-generated-files.hmap -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-own-target-headers.hmap -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-all-target-headers.hmap -iquote /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/PCSC4JavaUniv-project-headers.hmap -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/include -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/DerivedSources/x86_64 -I/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/DerivedSources -F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release -DDEBUG=1 -D_DEBUG -MMD -MT dependencies -MF /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC.d -c /Volumes/REDBILLED/mac/PCSC/mac_os_x/../src/PCSC.cpp -o /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC.o36"CD3CB373-DEF5-4D42-8686-7E2941B5D1AF-
+
+CCreateUniversalBinary /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib normal "x86_64 i386"
+s358513025.168521
+e358513025.539527
+r1
+xCreateUniversalBinary
+x/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib
+xnormal
+xx86_64 i386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Create universal binary /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib50342b81795eb541^1d1e8a81795eb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib00f42c00deffdf42^502"CreateUniversalBinary build/Release/libPCSC4JavaUniv.dylib normal "x86_64 i386"    cd /Volumes/REDBILLED/mac/PCSC/mac_os_x    /usr/bin/lipo -create /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylib -output /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib36"0C71C2BD-432D-4140-91D6-A21D6DE9F5FC-
+
+CGenerateDSYMFile /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib.dSYM /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib
+s358513025.546354
+e358513030.275773
+r1
+xGenerateDSYMFile
+x/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib.dSYM
+x/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Generating /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib.dSYMa6f18b81795eb541^0f994686795eb541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib.dSYM00f42c00deffdf42^328"GenerateDSYMFile build/Release/libPCSC4JavaUniv.dylib.dSYM build/Release/libPCSC4JavaUniv.dylib    cd /Volumes/REDBILLED/mac/PCSC/mac_os_x    /Developer/usr/bin/dsymutil /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib -o /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib.dSYM36"87710F62-A98D-4ADB-A88F-2D6E8926EDB8-
+
+CLd /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylib normal i386
+s358513025.127820
+e358513025.157438
+r1
+xLd
+x/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylib
+xnormal
+xi386
+old: warning: directory not found for option '-L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'
+old: warning: directory not found for option '-F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylibbbd02081795eb541^035c2881795eb541^-198"ld: warning: directory not found for option '-L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'ld: warning: directory not found for option '-F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'2(21%IDEActivityLogMessage2@85"Directory not found for option '-L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'-358513025#0#99#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@85"Directory not found for option '-F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'-358513025#99#99#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--836"Ld build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylib normal i386    cd /Volumes/REDBILLED/mac/PCSC/mac_os_x    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang++ -arch i386 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release -F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release -filelist /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/PCSC4JavaUniv.LinkFileList -install_name /usr/local/lib/libPCSC4JavaUniv.dylib -mmacosx-version-min=10.5 -framework PCSC -single_module -compatibility_version 1 -current_version 1 -o /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/i386/libPCSC4JavaUniv.dylib36"636A051C-0092-4F65-84B1-415C94ABE605-
+
+CLd /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib normal x86_64
+s358513025.131436
+e358513025.161701
+r1
+xLd
+x/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib
+xnormal
+xx86_64
+old: warning: directory not found for option '-L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'
+old: warning: directory not found for option '-F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Link /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib5eba2181795eb541^4d652981795eb541^-198"ld: warning: directory not found for option '-L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'ld: warning: directory not found for option '-F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'2(21%IDEActivityLogMessage2@85"Directory not found for option '-L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'-358513025#0#99#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@85"Directory not found for option '-F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release'-358513025#99#99#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--846"Ld build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib normal x86_64    cd /Volumes/REDBILLED/mac/PCSC/mac_os_x    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release -F/Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release -filelist /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/PCSC4JavaUniv.LinkFileList -install_name /usr/local/lib/libPCSC4JavaUniv.dylib -mmacosx-version-min=10.5 -framework PCSC -single_module -compatibility_version 1 -current_version 1 -o /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/PCSC4JavaUniv.build/Release/PCSC4JavaUniv.build/Objects-normal/x86_64/libPCSC4JavaUniv.dylib36"68A01A5E-D2E5-4289-BDEE-1533AB6A3A9B-
+
+CLd /Volumes/REDBILLED/mac/PCSC/mac_os_x/build/Release/libPCSC4JavaUniv.dylib normal x86_64
+r0
+
