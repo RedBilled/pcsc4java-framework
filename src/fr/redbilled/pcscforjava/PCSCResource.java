@@ -33,7 +33,7 @@ package fr.redbilled.pcscforjava;
  */
 public class PCSCResource 
 {
-    final static String     PCSC4JAVA_VERSION = "1.0.1";
+    final static String     PCSC4JAVA_VERSION = "1.0.2";
     
     /**
      * The library name.

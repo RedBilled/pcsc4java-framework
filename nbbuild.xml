@@ -12,7 +12,7 @@
     <import file="nbproject/build-impl.xml"/>
     
     <target name="-post-jar">
-        <copy tofile=".\dist\pcsc4java-framework-1.0.1.jar">
+        <copy tofile=".\dist\pcsc4java-framework-1.0.2.jar">
             <fileset file=".\dist\pcsc4java-framework.jar" />
         </copy>
     </target>

@@ -224,6 +224,7 @@ public final class TerminalFactory {
      */
     public void releaseContext() {
         defaultFactory.spi.destroyTerminals();
+        m_bPCSCServiceIsStarted = false;
     }
     
     /**
